@@ -1,0 +1,52 @@
+
+
+/*
+.burger{
+    position: relative;
+    left: 300px;
+    bottom: 50px;
+}
+ .burger1{
+
+    background-color: black;
+    width: 10px;
+    height: 1px;
+    margin: 16px 0;
+}
+.burger2{
+
+    background-color: black;
+    width: 20px;
+    height: 1px;
+    margin: 16px 0;
+
+}
+*/
+
+h3 {
+    color: #4c95fc;
+    font: 28.8px;
+}
+
+p{
+    font: 19.2px;
+}
+
+a{
+    font: 16px;
+    background-color: #4c95fc;
+    color: #ffff;
+}
+.bar{
+    background-color:#4c95fc;
+    text-align: center;
+    color: #ffff;
+
+}
+.button{
+    color: #ffff;
+    background-color: #4c95fc;
+    border-color:#4c95fc ;
+    
+
+}
