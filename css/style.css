@@ -1,52 +1,831 @@
 
 
-/*
-.burger{
-    position: relative;
-    left: 300px;
-    bottom: 50px;
-}
- .burger1{
-
-    background-color: black;
-    width: 10px;
-    height: 1px;
-    margin: 16px 0;
-}
-.burger2{
-
-    background-color: black;
-    width: 20px;
-    height: 1px;
-    margin: 16px 0;
-
-}
-*/
+ h1, h3, p, a, em {
+    font-family: Poppins;
+  }  
+    
+    
+ h1{
+     color: #4c95fc;
+     font-family: Poppins;
+     font-size: 2.5rem;
+     font-weight: bold;
+ } 
+ h2{
+     font-size: 2rem;
+ }
 
 h3 {
     color: #4c95fc;
-    font: 28.8px;
+    font: size 1.9rem;
+    
 }
 
 p{
-    font: 19.2px;
+  
+    font-size: 1rem;
 }
-
+/*
 a{
     font: 16px;
-    background-color: #4c95fc;
-    color: #ffff;
+
+    color:#4c95fc;
+}*/
+
+em{
+    margin-right: auto;
+    text-align: left;
+}
+
+
+
+
+@media only screen and (max-width: 220px) {
+    
+.bar{
+    width: auto;
+
+
+}}
+@media only screen and (max-width: 360px) {
+    
+  
+
+
+.btnP, .btnPro, .btnJ, .btnT, .btnQ{
+    background-color: #4C95FC;
+    color: white;
+    padding: 19px 32px ;
+    text-align: center;
+}
+
+.button{
+    color: white;
+}
+
+ .icons{
+     display: none;
+    
+ }
+ .about{
+     display: none;
+ }
+
+.logo{
+    position: relative;
+    left: 500px;
+}
+.barr{
+    position: relative;
+    top: 8px;
+    text-align: center;
+    margin-left: 1rem;
+    width: auto;
+    
 }
 .bar{
     background-color:#4c95fc;
     text-align: center;
     color: #ffff;
+    height: 400px;
+}
+.txt{
+    position: relative;
+    left:100px;
+    width: 60%;
+    bottom: 100px;
+
+}
+
+.texts{
+    color: #4c95fc;
+    font-size:1.8rem;
+    font-weight: bold;
+}
+.founders{
+    font-size: 1.8rem;
+}
+.text1{
+    text-align: center;
+    font-size: 1rem; 
+}
+.ceoMerlin{
+    column-count: 1;
+    width: 80%;
+    height: 80%;
+
+}
+.ygapImage{
+    width: 20%;
+    height: 5%;
+    position: relative;
+    
+}
+
+.txts{
+    font-size: 1.28rem;
+}
+
+.image{
+    display: inline-block;
+    vertical-align: top;
+    width:91px;
+     height:91px;  
+} 
+.words{
+     text-align: center;
+ }
+/*
+.main {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 7%; padding-top: 10px;
+}
+*/
+.burger {
+  display: flex;
+  outline: none;
+  height: 25px;
+  width: 30px;
+  border: 0px;
+  padding: 0px;
+  background: transparent;
+  transition: all 250ms ease-out;
+  cursor: pointer;
+  position: relative;
+  right: 220px;
+  top: 20px;
+}
+
+.burger:before, .burger:after {
+  content: '';
+  width: 30px;
+  height: 2px;
+  position: absolute;
+  background: #1a1a1a;
+  transition: all 250ms ease-out;
+  will-change: transform;
+}
+
+.burger:before {
+  transform: translateY(-3px);
+}
+
+.burger:after {
+  transform: translateY(3px);
+}
+
+
+.active.burger:before {
+  transform: translateY(0) rotate(45deg);
+}
+
+.active.burger:after {
+  transform: translateY(0) rotate(-45deg);
+} 
+
+
+}
+
+
+
+
+@media only screen and (min-width: 961px) {
+    body{
+    overflow-x: hidden;
+    }
+    .bar{
+        background-color:#4c95fc;
+        text-align: center;
+        color: #ffff;
+       
+      
+      
+    
+    }
+
+
+    
+.btnP, .btnPro, .btnJ, .btnT, .btnQ{
+    background-color: #4C95FC;
+    color: white;
+    padding: 19px 32px ;
+    text-align: center;
+    position: relative;
+    left: 500px;
+}
+.btnT{
+    position: relative;
+    left: 500px;
+    bottom: 100px;
+
+}
+
+.btnJ{
+    position: relative;
+    left: 500px;
+    bottom: 900px;
+
+}
+.btnPro{
+    position: relative;
+    left: 500px;
+    bottom: 150px;
+
+}
+
+.btnP{
+    position: relative;
+    left: 500px;
+    bottom: 100px;
+
+}
+.btnQ{
+    position: relative;
+    left: 500px;
+    bottom: 150px;
 
 }
 .button{
-    color: #ffff;
-    background-color: #4c95fc;
-    border-color:#4c95fc ;
+    color: white;
+}
+    .logos{
+        position: relative;
+        left: 40px;
+        top: 40px;
+    }
+
+    .image{
+        width: 100px;
+        height: 100px;
+    }
     
 
+.texts{
+    color: #4c95fc;
+    text-align: left;
+    font-size: 2.8rem;
 }
+
+.txts{
+    font-size: 1.5rem;
+}
+
+.txt{
+    position: relative;
+    bottom: 80px;
+    left: 120px;
+    width: 1000px;
+    font-size: 1.1rem;
+    
+  
+    
+
+
+}
+em{
+    position: relative;
+    left: 700px;
+}
+.container-fluid{
+width:500px;
+margin: auto;
+}
+
+
+
+.barr{
+    column-count: 3;
+    position: relative;
+    top: 20px;
+    
+}
+
+
+.img1, .img2{
+    position: relative;
+    bottom: 40px;
+}
+
+.img2{
+    position: relative;
+    bottom: 100px;
+}
+
+.pros{
+    position: relative;
+    bottom: 50px;
+}
+
+
+.dylan{
+    position: relative;
+    bottom: 90px;
+}
+.imgM{
+    position: relative;
+    bottom: 40px;
+
+}
+
+.textM{
+    position: relative;
+    bottom: 120px;
+}
+.nameM{
+    position: relative;
+    bottom: 120px;
+}
+
+.imgJ{
+    position: relative;
+    bottom: 80px;
+}
+
+.textJ{
+    position: relative;
+    bottom: 160px;
+}.NameJ{
+    position: relative;
+    bottom: 150px;
+
+}
+
+.partnersText{
+    position: relative;
+    bottom: 100px;
+}
+
+.ygapImage{
+    width: 10%;
+    height: 5%;
+    position: relative;
+    bottom: 40px;
+}
+.ygapSA{
+    position: relative;
+    bottom:100px ;
+}
+
+.imgMerlin{
+    width: 11%;
+    height: 11%;
+    position: relative;
+    bottom: 70px;
+}
+
+.merlinText{
+    position: relative;
+    bottom: 140px;
+
+}
+
+.ceoMerlin{
+    position: relative;
+    bottom:130px;
+}
+
+.words{
+    text-align: center;
+}
+
+.no{
+    font-size: 2.5rem;
+
+}
+.word{
+    font-size: 1rem;
+}
+.log{
+    width: 3%;
+    height:7%;
+}
+.icons{
+    position: relative;
+    left: 800px;
+    bottom: 40px;
+}
+.insta{
+    position: relative;
+    left: 180px;
+}
+.in{
+    position: relative;
+    left: 250px;
+}
+.fb{
+    position: relative;
+    left: 250px;
+}
+
+.about{
+    color:rgb(63, 58, 58);
+    position: relative;
+    left: 80px;
+    bottom: 30px;
+    
+}
+
+.burger{
+    display: none;
+}
+
+.text1{
+    font-size: 1rem;
+    text-decoration: none;
+    text-align: center;
+}
+
+.words{
+    position: relative;
+    top: 40px;
+    font-size: 1.2rem;
+}
+.imgFounder{
+    width: 100%;
+    height: 30%;
+}
+
+.founders{
+    text-align: center;
+    position: relative;
+    bottom: 180px;
+}
+.founder{
+    column-count: 2;
+    position: relative;
+    bottom: 130px;
+}
+
+.sayo{
+    position: relative;
+    bottom: 20px;
+}
+.team{
+    position: relative;
+    bottom: 40px;
+}
+.nameT{
+    position: relative;
+    bottom: 80px;
+}
+
+.imgMi{
+    position: relative;
+    bottom: 26px;
+}
+
+.texMi{
+    position: relative;
+    bottom: 100px;
+}
+
+.textmic{
+    position: relative;
+    bottom: 120px;
+}
+
+.nameMI{
+    position: relative;
+    bottom: 130px;
+}
+
+.imgHC{
+    position: relative;
+    bottom: 80px;
+}
+
+.texMi2{
+    position: relative;
+    bottom: 170px    ;
+}
+.nameR{
+    position: relative;
+    bottom: 180px;
+}
+
+.back{
+    text-align: center;
+}
+  }
+
+  @media only screen and (max-device-width: 414px) {
+
+    .btnP, .btnPro, .btnJ, .btnT, .btnQ{
+        background-color: #4C95FC;
+        color: white;
+        padding: 19px 32px ;
+        text-align: center;
+    }
+    .btnQ{
+        position: relative;
+        left: 100px;
+        bottom: 350px;
+    }
+    .btnP{
+        position: relative;
+        left: 100px;
+        bottom: 650px;
+    }
+    .btnJ{
+        position: relative;
+        left: 100px;
+        bottom: 650px;
+    }
+    
+    .btnPro{
+        position: relative;
+        left: 80px;
+        bottom: 610px;
+    }
+
+    .btnT{
+        position: relative;
+        left: 80px;
+        bottom: 650px;
+    }
+
+    .wavy-flat-stroke{
+        position: relative;
+        bottom: 650px;
+    }
+    .back{
+        position: relative;
+        bottom: 650px;
+    }
+
+    .nameT{position: relative;
+        bottom: 100px;
+        left: 100px;
+
+    }
+
+ .nameMI   {position: relative;
+        bottom: 100px;
+        left: 100px;
+
+    }
+.nameR{
+    position: relative;
+    bottom: 100px;
+    left: 100px;
+}
+
+
+.founders{
+    position: relative;
+    bottom: 650px;
+
+}
+
+.imgFounder{
+    position: relative;
+    bottom: 650px;
+
+
+}
+.words{
+    position: relative;
+    bottom: 650px;
+
+}
+.text1{
+    position: relative;
+    bottom: 650px;
+    text-align: center;
+    font-size: 1rem;
+
+}
+    .button{
+        color: white;
+    }
+    .icons{
+        display: none;
+    }
+
+    .bar{
+        background-color:#4c95fc;
+        text-align: center;
+        color: #ffff;
+    }
+    
+    .txt{
+        column-count:1 ;
+        position: relative;
+        max-width: 300px;
+        padding: 12px; 
+    }
+    .image{
+        column-count: 1;
+ 
+    }
+.customerSay{
+    position: relative;
+    padding-left: 100px;
+    max-width: 400px;
+    bottom: 110px;
+}
+.img1{
+    position: relative;
+    bottom:110px;
+}
+.img2{
+    position: relative;
+    bottom:220px; 
+}
+.pross{
+    position: relative;
+    bottom: 320px;
+}
+
+.protext{
+    position: relative;
+    padding-left: 100px;
+    max-width: 400px;
+    bottom: 200px;
+
+}
+.textt1{
+    position: relative;
+    padding-left: 100px;
+    max-width: 400px;
+    bottom: 110px;
+}
+.imgM{
+    position: relative;
+    bottom: 90px;
+}
+
+.imgJ{
+    position: relative;
+    bottom: 160px;
+}
+
+.NameJ{
+    position: relative;
+    bottom: 800px;
+}
+.txtK{
+    position: relative;
+    padding-left: 100px;
+    max-width: 400px;
+    bottom: 270px;
+}
+.partner{
+    column-count: 2;
+    position: relative;
+    bottom: 600px;
+    max-width: 400px;
+    max-height: 600px;
+}
+.partnersText{
+    position: relative;
+    bottom: 600px;
+   
+}
+.imgMerlin{
+    width: 40%;
+    height: 15%;
+}
+
+.team{
+    position: relative;
+    bottom: 600px;
+}
+.team1{
+        position: relative;
+        bottom: 10px;
+    }
+
+.textss{
+    position: relative;
+    padding-left: 100px;
+    max-width: 400px;
+    bottom: 110px;
+}
+.imgg{
+    position: relative;
+    bottom: 100px;
+}
+}
+@media only screen and (max-device-width: 800px) {
+.burger{
+    display: none;
+}
+    .btnP, .btnPro, .btnJ, .btnT, .btnQ{
+        background-color: #4C95FC;
+        color: white;
+        padding: 19px 32px ;
+        text-align: center;
+        position: relative;
+        left: 250px;
+    }
+    
+
+    .text1{
+        text-align: center;
+        font-size: 1rem;
+    }
+    .button{
+        color: white;
+    }
+ 
+    .bar{
+        background-color:#4c95fc;
+        text-align: center;
+        color: #ffff; 
+
+    }
+
+.icons{
+    display:none;
+}
+.logo{
+    position: relative;
+    right: 50px;
+}
+.pros{
+    position: relative;
+    text-align: left;
+    
+}
+.about{
+     position: relative;
+     color: black;
+     bottom: 30px;
+     left: 60px;
+}
+}
+
+@media only screen and (max-device-width: 1280px) {
+/*
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+}*/
+
+body{
+    overflow-x: hidden;
+}
+
+.btnP, .btnPro, .btnJ, .btnT, .btnQ{
+    background-color: #4C95FC;
+    color: white;
+    padding: 19px 32px ;
+    text-align: center;
+}
+
+.button{
+    color: white;
+}
+.bar{
+    width: auto;
+}
+.NameJ{
+    position: relative;
+    bottom: 80px;
+}
+.ygapSA{
+    position: relative;
+    right: 200px;
+    display: none;
+}
+.ceoMerlin{
+    position: relative;
+    right: 100px;
+    display: none;
+}
+.btnJ{
+    position: relative;
+    bottom: 180px;
+}
+}
+
+@media only screen and (max-device-width: 1920px){
+  
+.btnP, .btnPro, .btnJ, .btnT, .btnQ{
+    background-color: #4C95FC;
+    color: white;
+    padding: 19px 32px ;
+    text-align: center;
+}
+
+
+.button{
+    color: white;
+}
+    
+.bar{
+    width: auto;
+}
+.NameJ{
+    position: relative;
+    bottom: 80px;
+}
+}
+
